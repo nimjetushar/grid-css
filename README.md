@@ -4,6 +4,8 @@
 
 Grid css for creating responsive web designs
 
+Visit [`https://nimjetushar.github.io/grid-css/`](https://nimjetushar.github.io/grid-css/) for reference
+
 ## Licence
 
 [![GitHub license](https://img.shields.io/github/license/nimjetushar/grid-css.svg)](https://github.com/nimjetushar/grid-css/blob/master/LICENSE)
