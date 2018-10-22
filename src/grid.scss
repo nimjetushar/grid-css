@@ -1,0 +1,39 @@
+@import "./variable/variable.scss";
+@import "./mixins//brekpoint.scss";
+@import "./mixins/grid.scss";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+// Set the container width
+.container {
+    @include make-container();
+    @include make-container-max-widths();
+}
+
+// Set fluid container width
+.container-fluid {
+    @include make-container();
+}
+
+// Rows contain your columns.
+.row {
+    @include make-row();
+}
+
+// Remove the negative margin from default .row, then the horizontal padding from all immediate children columns.
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    >.col,
+    >[class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+// Common styles for small and large grid columns
+@include make-grid-columns();
