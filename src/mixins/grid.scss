@@ -11,7 +11,7 @@
 @mixin make-container-max-widths($max-widths: $container-max-widths, $breakpoints: $grid-breakpoints) {
     @each $breakpoint,
     $container-max-width in $max-widths {
-        @include media-breakpoint-up($breakpoint, $breakpoints) {
+        @include media-breakpoint($breakpoint, $breakpoints) {
             max-width: $container-max-width;
         }
     }
@@ -58,7 +58,7 @@
         @extend %grid-column;
       }
   
-      @include media-breakpoint-up($breakpoint, $breakpoints) {
+      @include media-breakpoint($breakpoint, $breakpoints) {
         // Provide basic `.col-{bp}` classes for equal-width flexbox columns
         .col#{$infix} {
           flex-basis: 0;
