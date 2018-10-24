@@ -5,7 +5,7 @@
 
 Grid css for creating responsive web designs
 
-```html
+{::nomarkdown}
     <head>
         <link rel="stylesheet" href="./dist/grid.css" />
     </head>
@@ -82,7 +82,7 @@ Grid css for creating responsive web designs
             <div class="col-md-4 grid-themed">.col-md-4</div>
         </div>
     </div>
-```
+{:/}
 
 ## Licence
 
