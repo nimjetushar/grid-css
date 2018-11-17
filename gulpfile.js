@@ -19,7 +19,8 @@ const AUTOPREFIXER_BROWSERS = [
 
 const sassFiles = "src/grid.scss",
   cssDest = "dist/",
-  delDest = "dist/**";
+  delDest = ["dist/**", "docs/grid.css"],
+  docDest = "docs/";
 
 gulp.task("styles", ["clean"], function() {
   gulp
@@ -27,6 +28,7 @@ gulp.task("styles", ["clean"], function() {
     .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer({ browsers: AUTOPREFIXER_BROWSERS }))
     .pipe(gulp.dest(cssDest))
+    .pipe(gulp.dest(docDest))
     .pipe(csso())
     .pipe(rename({ extname: ".min.css" }))
     .pipe(gulp.dest(cssDest));

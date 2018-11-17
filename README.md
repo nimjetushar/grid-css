@@ -5,6 +5,8 @@
 
 Grid css for creating responsive web designs
 
+For doc visit [`https://nimjetushar.github.io/grid-css`](https://nimjetushar.github.io/grid-css)
+
 ## Basic understanding
 
 The basic understanding for rendering grid is the sumation of the used columns which should always be eqaul to 12.
