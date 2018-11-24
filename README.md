@@ -1,6 +1,7 @@
 # grid.css
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2a85c6fb030e4352a35243ec1d7eabcf)](https://www.codacy.com/app/nimjetushar/grid-css?utm_source=github.com&utm_medium=referral&utm_content=nimjetushar/grid-css&utm_campaign=Badge_Grade)
+[![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://nimjetushar.github.io/grid-css/)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/200ab1bddb7641ae8a9c35b4389382ef)](https://www.codacy.com/app/tushar/grid-css?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nimjetushar/grid-css&amp;utm_campaign=Badge_Grade)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/nimjetushar/grid-css)
 
 Grid css for creating responsive web designs
