@@ -4,7 +4,7 @@
   "private": true,
   "description": "Grid css for creating responsive web designs",
   "scripts": {
-    "build": "gulp styles",
+    "build": "gulp",
     "deploy": "gh-pages -d docs"
   },
   "keywords": [],

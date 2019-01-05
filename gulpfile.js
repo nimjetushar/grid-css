@@ -22,14 +22,14 @@ const sassFiles = "src/grid.scss",
   delDest = ["dist/**", "docs/grid.css"],
   docDest = "docs/";
 
-gulp.task("clean", () => {
-  del(delDest, {
+function clean() {
+  return del(delDest, {
     force: true
   });
-});
+};
 
-gulp.task("styles", gulp.series("clean"), () => {
-  gulp
+function styles() {
+  return gulp
     .src(sassFiles)
     .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer({
@@ -42,4 +42,8 @@ gulp.task("styles", gulp.series("clean"), () => {
       extname: ".min.css"
     }))
     .pipe(gulp.dest(cssDest));
-});
+}
+
+const defaultTask = gulp.series(clean, styles);
+
+exports.default = defaultTask;
