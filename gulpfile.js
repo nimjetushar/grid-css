@@ -22,18 +22,24 @@ const sassFiles = "src/grid.scss",
   delDest = ["dist/**", "docs/grid.css"],
   docDest = "docs/";
 
-gulp.task("styles", ["clean"], function() {
+gulp.task("clean", () => {
+  del(delDest, {
+    force: true
+  });
+});
+
+gulp.task("styles", gulp.series("clean"), () => {
   gulp
     .src(sassFiles)
     .pipe(sass().on("error", sass.logError))
-    .pipe(autoprefixer({ browsers: AUTOPREFIXER_BROWSERS }))
+    .pipe(autoprefixer({
+      browsers: AUTOPREFIXER_BROWSERS
+    }))
     .pipe(gulp.dest(cssDest))
     .pipe(gulp.dest(docDest))
     .pipe(csso())
-    .pipe(rename({ extname: ".min.css" }))
+    .pipe(rename({
+      extname: ".min.css"
+    }))
     .pipe(gulp.dest(cssDest));
-});
-
-gulp.task("clean", function() {
-  del(delDest, { force: true });
 });
