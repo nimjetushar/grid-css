@@ -26,7 +26,7 @@ function clean() {
   return del(delDest, {
     force: true
   });
-};
+}
 
 function styles() {
   return gulp
