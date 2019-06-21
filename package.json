@@ -11,7 +11,7 @@
   "author": "Tushar Nimje",
   "license": "MIT",
   "devDependencies": {
-    "del": "4.1.0",
+    "del": "4.1.1",
     "gh-pages": "2.0.1",
     "gulp": "4.0.1",
     "gulp-autoprefixer": "6.1.0",
