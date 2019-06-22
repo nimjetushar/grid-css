@@ -7,6 +7,7 @@
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nimjetushar/grid-css)](https://dependabot.com)
 <br/>
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/nimjetushar/grid-css)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/nimjetushar/grid-css.svg)
 
 Grid css for creating responsive web designs
 
