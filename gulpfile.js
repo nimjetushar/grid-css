@@ -5,18 +5,6 @@ const gulp = require("gulp"),
   del = require("del"),
   rename = require("gulp-rename");
 
-const AUTOPREFIXER_BROWSERS = [
-  "ie >= 10",
-  "ie_mob >= 10",
-  "ff >= 30",
-  "chrome >= 34",
-  "safari >= 7",
-  "opera >= 23",
-  "ios >= 7",
-  "android >= 4.4",
-  "bb >= 10"
-];
-
 const sassFiles = "src/grid.scss",
   cssDest = "dist/",
   delDest = ["dist/**", "docs/grid.css"],
@@ -32,9 +20,7 @@ function styles() {
   return gulp
     .src(sassFiles)
     .pipe(sass().on("error", sass.logError))
-    .pipe(autoprefixer({
-      browsers: AUTOPREFIXER_BROWSERS
-    }))
+    .pipe(autoprefixer())
     .pipe(gulp.dest(cssDest))
     .pipe(gulp.dest(docDest))
     .pipe(csso())
