@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "del": "5.0.0",
-    "gh-pages": "2.1.0",
+    "gh-pages": "^2.0.1",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "6.1.0",
     "gulp-csso": "3.0.1",
