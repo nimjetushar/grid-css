@@ -18,7 +18,7 @@ For doc visit [`https://nimjetushar.github.io/grid-css`](https://nimjetushar.git
 Install package using
 <br>
 ``
-npm i grid-styled-css
+npm i grid-styled-css --save
 ``
 
 Import the styles from `~/grid-styled-css/grid/grid.min.css`
