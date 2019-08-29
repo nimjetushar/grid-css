@@ -1,18 +1,26 @@
 {
-  "name": "grid-css",
+  "name": "grid-styled-css",
   "version": "1.0.0",
-  "private": true,
   "description": "Grid css for creating responsive web designs",
   "scripts": {
     "build": "gulp",
     "deploy": "gh-pages -d docs"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "grid-styled-css",
+    "grid-layout",
+    "flexbox",
+    "responsive",
+    "responsive-layout",
+    "responsive-grid",
+    "scss"
+  ],
   "author": "Tushar Nimje",
   "license": "MIT",
   "devDependencies": {
     "del": "5.0.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "2.0.1",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "6.1.0",
     "gulp-csso": "3.0.1",

@@ -1,4 +1,4 @@
-# grid.css
+# grid-styles-css
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://nimjetushar.github.io/grid-css/)
 <br/>
@@ -12,6 +12,16 @@
 Grid css for creating responsive web designs
 
 For doc visit [`https://nimjetushar.github.io/grid-css`](https://nimjetushar.github.io/grid-css)
+
+## Getting started
+
+Install package using
+<br>
+``
+npm i grid-styled-css
+``
+
+Import the styles from `~/grid-styled-css/grid/grid.min.css`
 
 ## Basic understanding
 
