@@ -1,199 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="FZISpS-vlFU8GgNAnIezF4XgCfdtbwHy1jfQgB5iHfU" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Grid Css</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
-    <link rel="stylesheet" href="grid.css" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        font-family: "Roboto", sans-serif;
-      }
 
-      h1,
-      h2 {
-        margin: 10px 0;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification"
+    content="FZISpS-vlFU8GgNAnIezF4XgCfdtbwHy1jfQgB5iHfU" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Grid Css</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="grid.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Roboto", sans-serif;
+    }
 
-      .lead {
-        font-size: 1.25rem;
-        font-weight: 300;
-      }
+    h1,
+    h2 {
+      margin: 10px 0;
+    }
 
-      p {
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
 
-      .mt {
-        margin-top: 1.5rem;
-      }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
 
-      .mb {
-        margin-bottom: 1rem;
-      }
+    .mt {
+      margin-top: 1.5rem;
+    }
 
-      .grid-themed {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        background-color: rgba(86, 61, 124, 0.15);
-        border: 1px solid rgba(86, 61, 124, 0.2);
+    .mb {
+      margin-bottom: 1rem;
+    }
+
+    .grid-themed {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: rgba(86, 61, 124, 0.15);
+      border: 1px solid rgba(86, 61, 124, 0.2);
+    }
+
+    #forkongithub a {
+      background: #000;
+      color: #fff;
+      text-decoration: none;
+      font-family: arial, sans-serif;
+      text-align: center;
+      font-weight: bold;
+      padding: 5px 40px;
+      font-size: 1rem;
+      line-height: 2rem;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    #forkongithub a:hover {
+      background: #c11;
+      color: #fff;
+    }
+
+    #forkongithub a::before,
+    #forkongithub a::after {
+      content: "";
+      width: 100%;
+      display: block;
+      position: absolute;
+      top: 1px;
+      left: 0;
+      height: 1px;
+      background: #fff;
+    }
+
+    #forkongithub a::after {
+      bottom: 1px;
+      top: auto;
+    }
+
+    .install-cmd {
+      background: rgba(86, 61, 124, 0.15);
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+
+    @media screen and (min-width: 800px) {
+      #forkongithub {
+        position: fixed;
+        display: block;
+        top: 0;
+        right: 0;
+        width: 200px;
+        overflow: hidden;
+        height: 200px;
+        z-index: 9999;
       }
 
       #forkongithub a {
-        background: #000;
-        color: #fff;
-        text-decoration: none;
-        font-family: arial, sans-serif;
-        text-align: center;
-        font-weight: bold;
-        padding: 5px 40px;
-        font-size: 1rem;
-        line-height: 2rem;
-        position: relative;
-        transition: 0.5s;
-      }
-      #forkongithub a:hover {
-        background: #c11;
-        color: #fff;
-      }
-      #forkongithub a::before,
-      #forkongithub a::after {
-        content: "";
-        width: 100%;
-        display: block;
+        width: 270px;
         position: absolute;
-        top: 1px;
-        left: 0;
-        height: 1px;
-        background: #fff;
+        top: 60px;
+        right: -60px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
       }
-      #forkongithub a::after {
-        bottom: 1px;
-        top: auto;
-      }
-      
-      @media screen and (min-width: 800px) {
-        #forkongithub {
-          position: fixed;
-          display: block;
-          top: 0;
-          right: 0;
-          width: 200px;
-          overflow: hidden;
-          height: 200px;
-          z-index: 9999;
-        }
-        #forkongithub a {
-          width: 270px;
-          position: absolute;
-          top: 60px;
-          right: -60px;
-          transform: rotate(45deg);
-          -webkit-transform: rotate(45deg);
-          -ms-transform: rotate(45deg);
-          -moz-transform: rotate(45deg);
-          -o-transform: rotate(45deg);
-          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
-        }
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
 
-  <body>
-    <span id="forkongithub">
-      <a href="https://github.com/nimjetushar/grid-css">Fork me on GitHub</a>
-    </span>
+<body>
+  <span id="forkongithub">
+    <a href="https://github.com/nimjetushar/grid-css">Fork me on GitHub</a>
+  </span>
 
-    <div class="container">
-      <h1>Grid examples</h1>
-      <p class="lead">
-        Basic grid layouts to get you familiar with using grid system.
-      </p>
+  <div class="container">
+    <h1>Grid examples</h1>
+    <p class="lead">
+      Basic grid layouts to get you familiar with using grid system.
+    </p>
 
-      <h2>Basic understanding</h2>
-      <p>
-        The basic understanding for rendering grid is the sumation of the used
-        columns which should always be eqaul to 12.
-      </p>
-      <p>
-        Consider rendering grid using class <code>.col-4</code
-        ><code>.col-6</code><code>.col-2</code>. In this sample the summation is
-        <code>4 + 6 + 2 = 12</code> so the grid would render properly. So always
-        take care column sumation.
-      </p>
+    <h2>Installation</h2>
+    <p>
+      Install with npm&nbsp;
+      <span class="install-cmd">npm install grid-styled-css --save</span>
+    </p>
 
-      <h2 class="mt">Five grid tiers</h2>
-      <p>
-        There are five tiers to the grid system. Each tier starts at a minimum
-        viewport size and automatically applies to the larger devices unless
-        overridden.
-      </p>
+    <h2>Basic understanding</h2>
+    <p>
+      The basic understanding for rendering grid is the sumation of the used
+      columns which should always be eqaul to 12.
+    </p>
+    <p>
+      Consider rendering grid using class
+      <code>.col-4</code><code>.col-6</code><code>.col-2</code>. In this sample the
+      summation is
+      <code>4 + 6 + 2 = 12</code> so the grid would render properly. So always
+      take care column sumation.
+    </p>
 
-      <div class="row mb">
-        <div class="col-4 grid-themed">.col-4</div>
-        <div class="col-4 grid-themed">.col-4</div>
-        <div class="col-4 grid-themed">.col-4</div>
-      </div>
+    <h2 class="mt">Five grid tiers</h2>
+    <p>
+      There are five tiers to the grid system. Each tier starts at a minimum
+      viewport size and automatically applies to the larger devices unless
+      overridden.
+    </p>
 
-      <div class="row mb">
-        <div class="col-sm-4 grid-themed">.col-sm-4</div>
-        <div class="col-sm-4 grid-themed">.col-sm-4</div>
-        <div class="col-sm-4 grid-themed">.col-sm-4</div>
-      </div>
-
-      <div class="row mb">
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-      </div>
-
-      <div class="row mb">
-        <div class="col-lg-4 grid-themed">.col-lg-4</div>
-        <div class="col-lg-4 grid-themed">.col-lg-4</div>
-        <div class="col-lg-4 grid-themed">.col-lg-4</div>
-      </div>
-
-      <div class="row mb">
-        <div class="col-xl-4 grid-themed">.col-xl-4</div>
-        <div class="col-xl-4 grid-themed">.col-xl-4</div>
-        <div class="col-xl-4 grid-themed">.col-xl-4</div>
-      </div>
-
-      <h2 class="mt">Three equal columns</h2>
-      <p>
-        Get three equal-width columns. On mobile devices, tablets and below, the
-        columns will automatically stack.
-      </p>
-      <div class="row mb">
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-      </div>
-
-      <h2 class="mt">Three unequal columns</h2>
-      <p>
-        Get three columns of various widths. Remember, grid columns should add
-        up to twelve for a single horizontal block. More than that, and columns
-        start stacking no matter the viewport.
-      </p>
-      <div class="row mb">
-        <div class="col-md-3 grid-themed">.col-md-3</div>
-        <div class="col-md-6 grid-themed">.col-md-6</div>
-        <div class="col-md-3 grid-themed">.col-md-3</div>
-      </div>
-
-      <h2 class="mt">Two columns</h2>
-      <p>Get two columns.</p>
-      <div class="row mb">
-        <div class="col-md-8 grid-themed">.col-md-8</div>
-        <div class="col-md-4 grid-themed">.col-md-4</div>
-      </div>
+    <div class="row mb">
+      <div class="col-4 grid-themed">.col-4</div>
+      <div class="col-4 grid-themed">.col-4</div>
+      <div class="col-4 grid-themed">.col-4</div>
     </div>
-  </body>
+
+    <div class="row mb">
+      <div class="col-sm-4 grid-themed">.col-sm-4</div>
+      <div class="col-sm-4 grid-themed">.col-sm-4</div>
+      <div class="col-sm-4 grid-themed">.col-sm-4</div>
+    </div>
+
+    <div class="row mb">
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+    </div>
+
+    <div class="row mb">
+      <div class="col-lg-4 grid-themed">.col-lg-4</div>
+      <div class="col-lg-4 grid-themed">.col-lg-4</div>
+      <div class="col-lg-4 grid-themed">.col-lg-4</div>
+    </div>
+
+    <div class="row mb">
+      <div class="col-xl-4 grid-themed">.col-xl-4</div>
+      <div class="col-xl-4 grid-themed">.col-xl-4</div>
+      <div class="col-xl-4 grid-themed">.col-xl-4</div>
+    </div>
+
+    <h2 class="mt">Three equal columns</h2>
+    <p>
+      Get three equal-width columns. On mobile devices, tablets and below, the
+      columns will automatically stack.
+    </p>
+    <div class="row mb">
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+    </div>
+
+    <h2 class="mt">Three unequal columns</h2>
+    <p>
+      Get three columns of various widths. Remember, grid columns should add
+      up to twelve for a single horizontal block. More than that, and columns
+      start stacking no matter the viewport.
+    </p>
+    <div class="row mb">
+      <div class="col-md-3 grid-themed">.col-md-3</div>
+      <div class="col-md-6 grid-themed">.col-md-6</div>
+      <div class="col-md-3 grid-themed">.col-md-3</div>
+    </div>
+
+    <h2 class="mt">Two columns</h2>
+    <p>Get two columns.</p>
+    <div class="row mb">
+      <div class="col-md-8 grid-themed">.col-md-8</div>
+      <div class="col-md-4 grid-themed">.col-md-4</div>
+    </div>
+  </div>
+</body>
+
 </html>
