@@ -22,7 +22,7 @@
     "del": "5.1.0",
     "gh-pages": "2.0.1",
     "gulp": "4.0.2",
-    "gulp-autoprefixer": "7.0.0",
+    "gulp-autoprefixer": "7.0.1",
     "gulp-csso": "4.0.1",
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2"
