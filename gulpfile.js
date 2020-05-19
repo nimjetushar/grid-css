@@ -30,6 +30,10 @@ function styles() {
     .pipe(gulp.dest(cssDest));
 }
 
-const defaultTask = gulp.series(clean, styles);
+function addLicense() {
+  return gulp.src('./LICENSE').pipe(gulp.dest('./dist/'));
+}
+
+const defaultTask = gulp.series(clean, styles, addLicense);
 
 exports.default = defaultTask;
