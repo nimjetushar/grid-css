@@ -1,6 +1,6 @@
 {
   "name": "grid-styled-css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Grid css for creating responsive web designs",
   "scripts": {
     "build": "gulp",
