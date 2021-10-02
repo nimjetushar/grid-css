@@ -19,7 +19,7 @@
   "author": "Tushar Nimje",
   "license": "MIT",
   "devDependencies": {
-    "del": "5.1.0",
+    "del": "6.0.0",
     "gh-pages": "3.1.0",
     "gulp": "4.0.2",
     "gulp-autoprefixer": "7.0.1",
