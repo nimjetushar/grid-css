@@ -4,7 +4,6 @@
 <br/>
 [![Build Status](https://semaphoreci.com/api/v1/nimjetushar/grid-css/branches/master/shields_badge.svg)](https://semaphoreci.com/nimjetushar/grid-css)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/200ab1bddb7641ae8a9c35b4389382ef)](https://www.codacy.com/app/tushar/grid-css?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nimjetushar/grid-css&amp;utm_campaign=Badge_Grade)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=nimjetushar/grid-css)](https://dependabot.com)
 <br/>
 [![GitHub license](https://img.shields.io/github/license/nimjetushar/grid-css.svg)](https://github.com/nimjetushar/grid-css/blob/master/LICENSE) 
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/nimjetushar/grid-css)
