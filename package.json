@@ -42,7 +42,6 @@
     "android >= 4.4",
     "bb >= 10"
   ],
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nimjetushar/grid-css.git"
