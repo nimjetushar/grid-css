@@ -26,7 +26,7 @@
     "gulp-csso": "4.0.1",
     "gulp-rename": "2.0.0",
     "gulp-sass": "5.1.0",
-    "sass": "1.49.11"
+    "sass": "1.52.1"
   },
   "directories": {
     "doc": "docs"
