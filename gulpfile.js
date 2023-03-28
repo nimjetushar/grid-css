@@ -2,7 +2,6 @@ const gulp = require("gulp"),
   sass = require("gulp-sass")(require('sass')),
   autoprefixer = require("gulp-autoprefixer"),
   csso = require("gulp-csso"),
-  del = require("del"),
   rename = require("gulp-rename");
 
 const sassFiles = "src/grid.scss",
@@ -11,8 +10,10 @@ const sassFiles = "src/grid.scss",
   docDest = "docs/";
 
 function clean() {
-  return del(delDest, {
-    force: true
+  return import('del').then(del => {
+   return del.deleteSync (delDest, {
+      force: true
+    })
   });
 }
 
