@@ -2,7 +2,7 @@
 
 [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=my-website)](https://nimjetushar.github.io/grid-css/)
 <br/>
-[![Build Status](https://semaphoreci.com/api/v1/nimjetushar/grid-css/branches/master/shields_badge.svg)](https://semaphoreci.com/nimjetushar/grid-css)
+[![Build Status](https://tushar.semaphoreci.com/badges/grid-css/branches/master.svg?style=shields&key=dd5310cb-b34c-4e8e-a28b-ffe2d5a4f15d)](https://tushar.semaphoreci.com/projects/grid-css)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/200ab1bddb7641ae8a9c35b4389382ef)](https://www.codacy.com/app/tushar/grid-css?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nimjetushar/grid-css&amp;utm_campaign=Badge_Grade)
 <br/>
 [![GitHub license](https://img.shields.io/github/license/nimjetushar/grid-css.svg)](https://github.com/nimjetushar/grid-css/blob/master/LICENSE) 
